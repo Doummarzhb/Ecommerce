@@ -1,0 +1,16 @@
+
+<form id="form">
+  <h1 class="hey">Login</h1>
+  <label data-placeholder="text">
+    <input type="text"[(ngModel)]="loginObj.username" name="username" id="usernmae" placeholder="username" />
+  </label><br>
+  <label data-placeholder="Password">
+    <input type="password" name="password" [(ngModel)]="loginObj.password" id="password" placeholder="password" />
+  </label><br>
+  <button type="button" (click)="onLogin()">Login</button>
+  <!-- <div class="loader">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div> -->
+</form>
